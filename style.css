@@ -1,5 +1,5 @@
 
-html, 
+html,
 body{
     box-sizing: border-box;
     width: 100%;
@@ -43,10 +43,6 @@ nav {
     margin: 0;
 }
 
-.one {
-    color: #fff;
-}
-
 .list-1 {
     float: left;
     color: hsla(0,0%,100%,.6);
@@ -62,7 +58,7 @@ nav {
     padding: 12px 16px;
     z-index: 1;
   }
-  
+
   .dropdown:hover .dropdown-content {
     display: block;
     transition-duration: 0.5s;
@@ -79,7 +75,7 @@ nav {
       justify-content: flex-end;
       color: hsla(0,0%,100%,.6);
   }
-  
+
   .list-2 {
     color: hsla(0,0%,100%,.6);
     margin: 3px 5px;
@@ -89,6 +85,16 @@ nav {
    margin-left: 10px;
   }
 
+.nav-bar-links {
+    display: block;
+    color: hsla(0,0%,100%,.6);
+    text-decoration: none;
+}
 
+.one {
+    color: #fff;
+}
 
-  
+.nav-bar-links:hover {
+    color: white;
+}
