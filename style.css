@@ -141,7 +141,8 @@ nav {
 .list-4 {
     box-sizing: border-box;
     height: 100%;
-    display: inline-flex;
+    display: block;
+    float: right;
     margin: 0;
     border-left: 1px rgba(0, 0, 0, 0.3) solid;
 }
@@ -149,6 +150,7 @@ nav {
 .list-4 a {
     box-sizing: border-box;
     margin: 15px 20px;
+    vertical-align: top;
 }
 
 .list-4 svg {
