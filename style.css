@@ -30,6 +30,13 @@ nav {
     background-color: rgb(255, 255, 255);
 }
 
+.logo {
+    width: 106px;
+    height: 80px;
+    background-color: #f42;
+    transform: translateX(-106px);
+}
+
 .black-bar {
    width: 100%;
    height: 32px;
@@ -97,4 +104,101 @@ nav {
 
 .nav-bar-links:hover {
     color: white;
+}
+
+.white-bar {
+    width: 100%;
+    height: 48px;
+    display: flex;
+}
+
+.white-bar a {
+    color: black;
+    text-decoration: none;
+}
+
+.wb-ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    list-direction: row;
+}
+
+.wb-inner-ul {
+    display: inline-block;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.list-3 {
+    font-size: 0.9rem;
+    margin: 12px;
+    display: inline-block;
+    float: left;
+}
+
+.list-4 {
+    box-sizing: border-box;
+    height: 100%;
+    display: inline-block;
+    margin: 0;
+    border-left: 1px rgba(0, 0, 0, 0.3) solid;
+}
+
+.list-4 a {
+    box-sizing: border-box;
+    margin: 15px 20px;
+}
+
+.list-4 svg {
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+    fill: rgba(0, 0, 0, 0.3);
+}
+
+.list-4 svg:hover {
+    fill: rgba(0, 0, 0, 1);
+}
+
+.list-4 span {
+    transition: .4s;
+    background-color:#f42;
+    display: block;
+    height: 2px;
+    width: 20px;
+    margin-bottom: 5px;
+}
+
+.first-span {
+    margin-top: 2px;
+}
+
+
+@media screen and (min-width:768px) {
+    .mobile {
+        display: none;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .logo {
+        transform: translateX(0);
+    }
+
+    .logo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo a {
+        width: 100%;
+        height: 100%;
+    }
+
+    .black-bar {
+        width: calc(100%-106px);
+    }
 }
