@@ -438,7 +438,7 @@ main {
 }
 
 .article-1-3 {
-    background-color: black; 
+    background-color: black;
 }
 
 .picture-3 {
@@ -446,4 +446,110 @@ main {
     height: 100%;
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Game-Controllers-796x416.jpg);
     background-size: cover;
+}
+
+.section-2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:0 5%;
+}
+
+.section-2-h2 {
+    position: relative;
+    left: 12px;
+}
+
+.section-2-ul {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.s2-lis {
+    box-sizing: border-box;
+    max-width: 21%;
+    margin: 0 20px;
+}
+
+.img-a {
+    display: block;
+    height: 0;
+    padding-top:50%;
+    max-width: 100%;
+}
+
+.section-2 a:link,
+.section-2 a:visited,
+.section-2 a:active {
+    color: #000;
+    text-decoration: none;
+}
+
+.section-2 a:hover {
+    color: #f42;
+    text-decoration: underline;
+}
+
+.section-2-inner-ul{
+    display: flex;
+}
+
+.sub-links {
+    padding: 0;
+    margin: 0;
+}
+
+.sub-links a:link,
+.sub-links a:visited,
+.sub-links a:active {
+    color:#aaa;
+    text-decoration: none;
+}
+
+.sub-links a:hover {
+    color: #555;
+}
+
+.a-1 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/sale_21678_primary_image_wide-540x270.jpg) 0 0 no-repeat;
+    background-size:cover;
+}
+
+.a-2 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/icecage-796x409.jpg) 0 0 no-repeat;
+    background-size:cover;
+}
+
+.a-3 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/telegram-ton-pavel-durov-facebook-advert-fake-blockchain-480x270.jpg) 0 0 no-repeat;
+    background-size:cover;
+}
+
+.a-4 {
+    background-image: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F03%2Fripple-good-place-to-work-cryptocurreny-xrp-blockchain-corporate-private-permissioned.jpg&signature=d80d63e39a45621379ee7007fe2ea1d1);
+    background-size:cover;
+}
+
+.a-5 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/google-play-store-apps-malware-478x270.jpg);
+    background-size:cover;
+}
+
+.a-6 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Dark-Mode-iOS-13-514x270.png);
+    background-size:cover;
+}
+
+.a-7 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Untitled-design106-516x270.png);
+    background-size:cover;
+}
+
+.a-8 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg);
+    background-size:cover;
 }
