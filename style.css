@@ -270,6 +270,7 @@ main {
 .anchor-1 {
     width: 100%;
     height: 100%;
+    background: transparent;
 }
 
 .cover-gradient {
@@ -776,8 +777,11 @@ main {
 .section-5 {
     margin: 0;
     width: 100%;
-    padding: 0 5%;
-    display: block;
+    padding: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
     height: 2100px;
 }
 
@@ -788,14 +792,16 @@ main {
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
-    margin: 12px;
-    justify-content: space-between;
+    margin: 0;
+    justify-content: flex-start;
+    align-content: flex-start;
 }
 
 .inner-section {
     box-sizing: border-box;
-    width: 27%;
+    width: 30%;
     height: 40%;
+    margin: 22px;
 }
 
 .article-5-1 {
@@ -821,11 +827,11 @@ main {
 
 .section-5-1-ul li {
     box-sizing: border-box;
-    height: 10%;
+    height: auto;
     margin: 0;
     padding: 0;
     background-color: transparent;
-    display: flex
+    display: flex;
 }
 
 .hu-li{
@@ -848,7 +854,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-background: linear-gradient(180deg, rgba(0,0,0,0.006022477350315136) 0%, rgba(0,0,0,0.6026611328125) 51%, rgba(0,0,0,1) 96%);
+    background: linear-gradient(180deg, rgba(0,0,0,0.006022477350315136) 0%, rgba(0,0,0,0.6026611328125) 51%, rgba(0,0,0,1) 96%);
+    z-index: 0;
 }
 
 .header-5-1 h2 {
@@ -857,14 +864,102 @@ background: linear-gradient(180deg, rgba(0,0,0,0.006022477350315136) 0%, rgba(0,
 
 .picture-5-1 {
     width: 100%;
+    height: 100%;
     background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-24-110709-368x276.png) 0 0 no-repeat;
     background-size: cover;
+    z-index: -1;
+}
+
+.anchor-5-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .section-5-header {
     padding: 12px;
 }
 
+.sub-article {
+    position: relative;
+    line-height: 1;
+    background-color: rgba(255,68,34,.06); 
+}
+
+.sa-header {
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px 0 5px 7px;
+    width: 100%;
+    height: 100%;
+}
+
 .sa-anchor {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg");
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg") 0 0 no-repeat;
+    background-size: cover;
+}
+
+.sa-h4,
+.sa-h5 {
+    margin: 0;
+    width:70%;
+    color: rgb(255, 68, 34);
+}
+
+.sa-h4 a:link,
+.sa-h4 a:visited,
+.sa-h4 a:active {
+    text-decoration: none;
+    color: rgb(255, 68, 34);
+}
+
+.sa-h4 a:hover {
+    text-decoration: underline;
+    color: rgb(255, 68, 34);
+    text-decoration-color: rgba(255, 68, 34, 0.2);
+}
+
+.sa-h4 {
+    margin-top: 5px;
+}
+
+.sa-h5 {
+    font-weight: 400;
+}
+
+.others-li {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.others-li::before {
+    display: block;
+    content: "\2022";
+    color: rgb(255, 68, 34);
+    width: 1em;
+    margin-left: 0;
+}
+
+.others-li a:link,
+.others-li a:active {
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+}
+
+.others-li a:visited {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.others-li a:hover {
+    color: #000;
+    text-decoration: none;
 }
