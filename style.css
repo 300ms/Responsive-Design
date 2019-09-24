@@ -340,7 +340,6 @@ main {
 .section-1 li {
     margin: 0 0.3%;
     line-height: 1.4rem;
-
 }
 
 .header-1-ul {
@@ -776,6 +775,7 @@ main {
 
 .section-5 {
     margin: 0;
+    width: 100%;
     padding: 0 5%;
     display: block;
     height: 2100px;
@@ -792,21 +792,45 @@ main {
     justify-content: space-between;
 }
 
+.inner-section {
+    box-sizing: border-box;
+    width: 27%;
+    height: 40%;
+}
+
 .article-5-1 {
     box-sizing: border-box;
     position: relative;
     width: 100%;
-    height: 40%;
+    height: 100%;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#first-li {
+    box-sizing: border-box;
+    width: 100%;
+    height: 33%;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    display: flex;
 }
 
 .section-5-1-ul li {
     box-sizing: border-box;
-    width: 32%;
-    height: 33%;
+    height: 10%;
     margin: 0;
     padding: 0;
+    background-color: transparent;
+    display: flex
+}
+
+.hu-li{
+    margin: 0 0.3%;
+    line-height: 1.4rem;
     background-color: transparent;
 }
 
@@ -814,24 +838,33 @@ main {
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 0;
+    padding: 5px;
     margin: 0;
     width: 100%;
+    height: 100%;
     box-sizing: border-box;
     color: rgba(130, 130, 130, 1);
     font-family: 'Roboto Mono', monospace;
-    font-size: 0.84rem;
-    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0) 36%, rgba(0,0,0,1) 79%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0) 36%,rgba(0,0,0,1) 79%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0) 36%,rgba(0,0,0,1) 79%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+background: linear-gradient(180deg, rgba(0,0,0,0.006022477350315136) 0%, rgba(0,0,0,0.6026611328125) 51%, rgba(0,0,0,1) 96%);
+}
+
+.header-5-1 h2 {
+    font-size: 1.2rem;
 }
 
 .picture-5-1 {
     width: 100%;
     background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-24-110709-368x276.png) 0 0 no-repeat;
+    background-size: cover;
 }
 
 .section-5-header {
     padding: 12px;
+}
+
+.sa-anchor {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg");
 }
