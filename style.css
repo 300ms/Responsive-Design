@@ -627,6 +627,8 @@ main {
 
 .wrapper-2 {
     position: relative;
+    display: flex;
+    justify-content: space-between;
     left: 12px;
     width:100%;
     height: 90%;
@@ -646,6 +648,7 @@ main {
     padding: 0;
     display: flex;
     flex-direction: column;
+    background-color: rgb(255, 250, 248);
 }
 
 .div-4-1 a:link,
