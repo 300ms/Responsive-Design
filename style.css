@@ -774,21 +774,48 @@ main {
     font-weight: 400;
 }
 
-.section-5-1 {
+.section-5 {
+    margin: 0;
+    padding: 0 5%;
+    display: block;
+    height: 2100px;
+}
+
+.section-5-1-ul {
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
     width: 100%;
     height: 100%;
+    margin: 12px;
+    justify-content: space-between;
 }
 
 .article-5-1 {
+    box-sizing: border-box;
+    position: relative;
     width: 100%;
-    height: 100%;
+    height: 40%;
+    margin: 0;
+    padding: 0;
+}
+
+.section-5-1-ul li {
+    box-sizing: border-box;
+    width: 32%;
+    height: 33%;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
 }
 
 .header-5-1 {
-    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0;
     margin: 0;
-    bottom: 1px;
-    left: 1px;
     width: 100%;
     box-sizing: border-box;
     color: rgba(130, 130, 130, 1);
@@ -802,7 +829,9 @@ main {
 
 .picture-5-1 {
     width: 100%;
-    height: 100px;
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-24-110709-368x276.png);
-    background-size: cover;
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-24-110709-368x276.png) 0 0 no-repeat;
+}
+
+.section-5-header {
+    padding: 12px;
 }
