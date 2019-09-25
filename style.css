@@ -1,4 +1,3 @@
-
 html,
 body{
     box-sizing: border-box;
@@ -238,12 +237,12 @@ nav {
 
 main {
     width: 100%;
-    height: 1000px;
+    height: 100%;
 }
 
 .section-1 {
     width: 100%;
-    height: 455px;
+    height: 20%;
     box-sizing: border-box;
     margin-top: 31px;
     padding: 0 8px;
@@ -811,8 +810,10 @@ main {
 }
 
 .section-5 {
+    box-sizing: border-box;
     margin: 0;
     width: 100%;
+    height: 55%;
     padding: 0 8%;
     display: flex;
     flex-direction: row;
