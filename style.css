@@ -242,7 +242,7 @@ main {
 
 .section-1 {
     width: 100%;
-    height: 20%;
+    height: 13%;
     box-sizing: border-box;
     margin-top: 31px;
     padding: 0 8px;
@@ -283,7 +283,7 @@ main {
 }
 
 .logo {
-    width: 40%;
+    width: 45%;
     height: 20%;
     background:transparent url(images/tnw.svg) no-repeat;
     background-size: cover;
@@ -491,7 +491,7 @@ main {
 .img-a {
     display: block;
     height: 0;
-    padding-top:50%;
+    padding-top: 50%;
     max-width: 100%;
 }
 
@@ -1024,4 +1024,47 @@ main {
 .section-5-header a:active {
     text-decoration: none;
     color: #f42;
+}
+
+.w6 {
+    position: relative;
+    width: 100%;
+}
+
+.c-1 {
+    height: 0;
+    padding-top: 75%;
+    background-image: url("https://cdnp2.stackassets.com/aaf2c9a38e830798c4e6dff8b57a80b845a94208/store/087b813527abfd8512c1f9b81d0cb9f7b24d710b80a66446b438e2ecfaca/sale_21678_primary_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.background {
+    width: 80px;
+    height: 80px;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.sales {
+    position: relative;
+    left: 14px;
+    top: 26px;
+    transform: rotate(45deg);
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.span6 {
+    text-decoration-line: line-through;
+    font-size: 13px;
+    color: rgb(170, 170, 170);
+    margin-right: 5px;
 }
