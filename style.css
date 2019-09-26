@@ -869,7 +869,7 @@ main {
 #first-li {
     box-sizing: border-box;
     width: 100%;
-    height: calc(100vh * (3/6.794));
+    height: calc(100vh * (3/6.794)); /*Changed*/
     margin: 0;
     padding: 0;
     background-color: transparent;
