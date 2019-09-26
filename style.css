@@ -453,7 +453,7 @@ main {
     margin-left: 1.66667%;
     color: #f42;
         min-width: 385px;
-    
+
 }
 
 .section-2-ul {
@@ -845,7 +845,7 @@ main {
 #first-li {
     box-sizing: border-box;
     width: 100%;
-    height: calc(100vh * (3/6.794)); /*Changed*/
+    height: calc(100vh * (3/6)); /*Changed*/
     margin: 0;
     padding: 0;
     background-color: transparent;
@@ -855,7 +855,7 @@ main {
 .section-5-1-ul li {
     box-sizing: border-box;
     height: auto;
-    margin: 0;
+    margin: 5px 0;
     padding: 0;
     background-color: transparent;
     display: flex;
@@ -965,6 +965,7 @@ main {
     width: 100%;
     height: auto;
     border-bottom: 1px solid rgb(238, 238, 238);
+    margin: 5px 0;
 }
 
 .others-li::before {
@@ -1259,6 +1260,10 @@ footer {
         display: none;
     }
 
+    nav {
+        top: 0;
+    }
+
     .wb-ul .list-3 {
         display: none;
     }
@@ -1322,7 +1327,7 @@ footer {
     padding-top: 75px;
     width: 75px;
     background-position: center center;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
     float: left;
     margin-right: 1.5%;
 }
@@ -1365,6 +1370,54 @@ footer {
 .wrapper-1 span {
     display: none;
 }
+
+.wrapper-2 {
+    flex-direction: column;
+}
+
+.wrapper-2 .div-4-1 {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+.inner-section {
+    width: 100%;
+    flex-basis: 100%;
+    height: 700px;
+}
+
+.article-5-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.section-5 {
+    height: 5650px;
+    padding-left: 2%;
+}
+
+.background {
+    display: none;
+}
+
+.w6 {
+    margin-bottom: 15px;
+}
+
+.w6 h4,
+.w6 ul {
+    float: left;
+    width: 80%;
+}
+
+.w6 h4 a:link,
+.w6 h4 a:visited,
+.w6 h4 a:active {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
 }
 
 @media screen and (max-width:828px) {
@@ -1373,36 +1426,36 @@ footer {
          display: none;
          margin: 0;
      }*/
- 
+
      .nav-div {
          display: none;
      }
  }
- 
- 
+
+
  @media screen and (min-width:768px) {
      .mobile {
          display: none;
          margin: 0;
      }
- 
+
  }
- 
+
  @media screen and (max-width:1024px) {
      .logo {
          transform: translateX(0);
      }
- 
+
      .logo img {
          width: 100%;
          height: 100%;
      }
- 
+
      .logo a {
          width: 100%;
          height: 100%;
      }
- 
+
      .black-bar {
          width: calc(100%-106px);
      }
