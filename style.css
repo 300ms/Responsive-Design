@@ -4,14 +4,15 @@ body{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    min-height: 100%;
 }
 
 body {
     color: #555;
     line-height: 1.5;
-    min-height: 100vh;
     margin: 0;
     padding: 0;
+    height: fit-content; /* change min-height: 100% to*/
 }
 
 ul {
@@ -237,12 +238,16 @@ nav {
 
 main {
     width: 100%;
-    height: 100%;
+    height: fit-content; /*Added*/
+}
+
+::-webkit-scrollbar { 
+    display: none; 
 }
 
 .section-1 {
     width: 100%;
-    height: 13%;
+    height: calc(100vh * (3/4));/*changed*/
     box-sizing: border-box;
     margin-top: 31px;
     padding: 0 8px;
@@ -452,7 +457,8 @@ main {
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 0 8%;
+    padding: 0 6%;
+    height: 15%;
 }
 
 .section-2-h2::after
@@ -572,7 +578,8 @@ main {
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 0 8%;
+    padding: 0 6%;
+    height: 9%;
 }
 
 .section-3 a:link,
@@ -612,7 +619,8 @@ main {
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 0 8%;
+    padding: 0 6%;
+    height: 10%;
 }
 
 .section-4 .section-2-h2 {
@@ -814,7 +822,7 @@ main {
     margin: 0;
     width: 100%;
     height: 50%;
-    padding: 0 8%;
+    padding: 0 6%;
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -826,7 +834,7 @@ main {
     display: flex;
     position: relative;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     height: 90%;
     margin: 0;
     justify-content: flex-start;
@@ -840,7 +848,7 @@ main {
     height: 33%;
     min-width: 262px;
     min-height: 600px;
-    margin: 0 auto;
+    margin: 0 0 0 1.6667%;
 }
 
 .last-inner-section {
@@ -861,7 +869,7 @@ main {
 #first-li {
     box-sizing: border-box;
     width: 100%;
-    height: 45%;
+    height: calc(100vh * (3/6.794));
     margin: 0;
     padding: 0;
     background-color: transparent;
@@ -1026,6 +1034,10 @@ main {
     color: #f42;
 }
 
+.section-6 {
+    height: 17%;
+}
+
 .w6 {
     position: relative;
     width: 100%;
@@ -1120,4 +1132,19 @@ main {
     color: #f42;
     text-decoration: underline;
     text-decoration-color: rgba(255,68,34,.25);
+}
+
+footer {
+    display: block;
+    width: 100%;
+    height: 0;
+    padding-top: 19%;
+    background-color: black; 
+}
+
+.footer-1 {
+    width: 100%;
+    height: 50%;
+    background-color: #f42;
+    position: relative;
 }
