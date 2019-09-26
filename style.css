@@ -13,6 +13,7 @@ body {
     margin: 0;
     padding: 0;
     height: fit-content; /* change min-height: 100% to*/
+    height: -moz-max-content;
 }
 
 ul {
@@ -239,10 +240,11 @@ nav {
 main {
     width: 100%;
     height: fit-content; /*Added*/
+    height: -moz-max-content;
 }
 
-::-webkit-scrollbar { 
-    display: none; 
+::-webkit-scrollbar {
+    display: none;
 }
 
 .section-1 {
@@ -1139,7 +1141,7 @@ footer {
     width: 100%;
     height: 0;
     padding-top: 19%;
-    background-color: black; 
+    background-color: black;
 }
 
 .footer-1 {
