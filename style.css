@@ -1246,7 +1246,8 @@ footer {
 .footer-links-menu {
     position: relative;
     bottom: 0;
-    display: inline-block;
+    display: flex;
+    flex-wrap: nowrap;
     width: 26%;
     min-width: 370px;
     margin: auto;
