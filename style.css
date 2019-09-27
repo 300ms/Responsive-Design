@@ -613,6 +613,16 @@ main {
     color: #f42;
 }
 
+.wrapper {
+    margin-bottom: 25px;
+}
+
+.wrapper h4 {
+    margin: 10px 0 5px 0;
+    line-height: 1;
+    font-size: 1.2rem;
+}
+
 .wrapper-1 {
     width: 65%;
     display: inline-block;
