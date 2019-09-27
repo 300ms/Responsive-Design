@@ -856,7 +856,7 @@ main {
 #first-li {
     box-sizing: border-box;
     width: 100%;
-    height: calc(100vh * (3/6));
+    height: calc(100vh * (6/17));
     margin: 0;
     padding: 0;
     background-color: transparent;
@@ -893,7 +893,7 @@ main {
     flex-direction: column;
     justify-content: flex-end;
     background: linear-gradient(180deg, rgba(0,0,0,0.006022477350315136) 0%, rgba(0,0,0,0.6026611328125) 51%, rgba(0,0,0,1) 96%);
-    z-index: 0;
+    z-index: 1;
 }
 
 .header-5-1 h2 {
@@ -912,12 +912,43 @@ main {
     box-sizing: border-box;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 0;
     width: 0;
     height: 100%;
     padding-left: 100%;
-    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-24-110709-368x276.png) no-repeat;
+}
+
+.a5-1 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Facebook-likes-368x276.png) no-repeat;
     background-size: cover;
+}
+
+
+.a5-2 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Amazon-Alexa-devices-1-368x276.jpg) no-repeat;
+    background-size: cover;
+}
+
+.a5-3 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Doordash-hed-368x276.jpg) no-repeat;
+    background-size: cover;
+}
+
+.a5-4 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214-368x276.png) no-repeat;
+    background-size: cover;
+}
+
+.a5-5 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Untitled-design110-368x276.png) no-repeat;
+    background-size: cover;
+}
+
+.hu-li a::after {
+    content: "\B7";
+    display: block;
+    float: right;
+    margin: 0 4px;
 }
 
 .section-5-header {
@@ -950,8 +981,36 @@ main {
     right: 0;
     bottom: 0;
     display: inline-block;
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg") 0 0 no-repeat;
+}
+
+.sa-1 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Mario-Kart-Tour.jpg") 0 0 no-repeat;
     background-size: cover;
+    background-position: center;
+}
+
+.sa-2 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/K20-Por.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sa-3 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/troll-factory-hed.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.sa-4 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sa-5 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Server.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .sa-h4,
@@ -1279,7 +1338,7 @@ footer {
 @media screen and (max-width:768px) {
 
     .yellow-bar {
-        
+
         font-size: 0.7rem;
         overflow: hidden;
         white-space: nowrap;
@@ -1389,6 +1448,7 @@ footer {
         display: flex;
         flex-direction: column;
         line-height: 3;
+        margin-left: 0;
     }
 
     .wrapper-1 {
@@ -1396,6 +1456,12 @@ footer {
         margin-bottom: 3%;
         display: flex;
         flex-direction: column;
+    }
+
+    .wrapper-1 a:link,
+    .wrapper-1 a:visited,
+    .wrapper-1 a:active {
+        margin-left: 0;
     }
 
     .wrapper-1 .anchor-4-1 {
@@ -1545,7 +1611,7 @@ footer {
 
      .inner-section {
          flex-basis: 100%;
-        
+
      }
 
      .last-one {
@@ -1558,6 +1624,28 @@ footer {
 
      .section-4 header {
          flex-direction : column;
+         margin-left: 10px;
+     }
+
+     .section-4 .section-2-h2 {
+         line-height: 1;
+     }
+
+     .wrapper-1 {
+         margin-left: 0;
+         line-height: 3;
+     }
+
+     .wrapper-1 span {
+         float: left;
+         margin-right: 2%;
+     }
+
+     .wrapper-1 a:link,
+     .wrapper-1 a:visited,
+     .wrapper-1 a:active {
+         float: left;
+         margin: 0;
      }
 
      .div-4-1 {
