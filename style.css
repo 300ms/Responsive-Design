@@ -16,6 +16,10 @@ body {
     height: -moz-max-content;
 }
 
+a {
+    font-family: 'Raleway', sans-serif;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -625,11 +629,11 @@ main {
 .wrapper h4 {
     margin: 10px 0 5px 0;
     line-height: 1;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .wrapper-1 {
-    width: 65%;
+    width: 55%;
     display: inline-block;
     line-height: 1;
     margin: auto;
@@ -944,6 +948,21 @@ main {
     background-size: cover;
 }
 
+.a5-6 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/09/moonday-morning-368x276.png) no-repeat;
+    background-size: cover;
+}
+
+.a5-7 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Google-Assistant-phone-line-368x276.jpg) no-repeat;
+    background-size: cover;
+}
+
+.a5-8 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Broomstick-League-368x276.jpg) no-repeat;
+    background-size: cover;
+}
+
 .hu-li a::after {
     content: "\B7";
     display: block;
@@ -1013,6 +1032,24 @@ main {
     background-position: center;
 }
 
+.sa-6 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/onecoinscam.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sa-7 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Pam-Angela-The-Office.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sa-8 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Ubisoft-Concordia.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .sa-h4,
 .sa-h5 {
     margin: 0;
@@ -1054,6 +1091,10 @@ main {
     color: rgb(255, 68, 34);
     width: 1em;
     margin-left: 0;
+}
+
+.others-li a {
+    font-size: 0.8rem;
 }
 
 .others-li a:link,
@@ -1181,7 +1222,7 @@ main {
     display: inline-block;
     text-decoration: none;
     color: #000;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.2;
 }
 
@@ -1405,10 +1446,6 @@ footer {
     .section-2 {
         padding-left: 2%;
         margin-top: 8%;
-    }
-
-    .section-2-h2 {
-        font-size: 1rem;
     }
 
     .s2-lis {
@@ -1653,3 +1690,10 @@ footer {
          max-width: 33.3333%;
      }
  }
+
+ .section-2-h2,
+ .section-5-header {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 900;
+}
