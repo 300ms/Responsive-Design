@@ -8,21 +8,19 @@ https://thenextweb.com/
 
 https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-responsive-design
 
-### Screen-Shot :
-![alt text](https://i.ibb.co/1X1WtBT/screencapture-file-C-Users-euko9-Desktop-Microverse-Responsive-Design-index-html-2019-10-01-01-30-33.png "Screen Shot -1")
-
-
 ### Description:
 
-We added 3 main sections which are: header, main, footer.
+We added 3 main sections which are: nav, main, footer.
 
-Header includes a \<nav\> element, and there are text, link, image elements inside.
+The \<nav\> element contains \<div\>, \<ul\> and \<li\> elements for menus in bars. Two bars, the white and yellow ones have position: fixed.
 
-Main section includes a brand logo, brand icons and a form inside.
-form got a \<fieldset\> in it. There are labels, input elements, a button and texts
-which includes links in them.
+Main tag includes six \<section\> tags.
+Inside  every section we added the content of the page using \<div\>, \<ul\>, background pictures, gradient layers etc.
 
-At the last element which footer section, there are 2 div elements which first one
-includes links and second one includes text elements.
+The \<footer\> element contains two \<div\> tags for link list and copyrights.
 
-We tried to make the page look like original one, so our page's styling is very similar.
+In last project we learn and used grid layout but in this project we prefered flex-box mostly. Flex-box layout is more useful for responsive desgin pages. We also tried to used many different properties of this layout.
+
+
+### Screen-Shot :
+![alt text](https://i.ibb.co/1X1WtBT/screencapture-file-C-Users-euko9-Desktop-Microverse-Responsive-Design-index-html-2019-10-01-01-30-33.png "Screen Shot -1")
