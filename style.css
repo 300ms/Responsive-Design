@@ -1257,7 +1257,7 @@ footer {
 .footer-icons {
     width: 100%;
     height: fit-content;
-    padding: 2.5em 0;
+    padding: 2em 0;
     background-color: #131313;
     display: flex;
     flex-direction: column;
@@ -1375,7 +1375,7 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 12px;
-    padding: 5.5% 0;
+    padding: 2.75% 0;
     border: 0;
 }
 
