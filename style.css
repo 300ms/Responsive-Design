@@ -12,7 +12,7 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    height: fit-content; /* change min-height: 100% to*/
+    height: fit-content;
     height: -moz-max-content;
 }
 
@@ -136,14 +136,14 @@ nav {
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
-    height: 100%;
-    list-direction: row;
+    height: fit-content;
 }
 
 .wb-inner-ul {
     display: inline-block;
     margin-right: 0;
     margin-left: auto;
+    min-width: 125px;
 }
 
 .list-3 {
@@ -151,6 +151,11 @@ nav {
     margin: 12px;
     display: inline-block;
     float: left;
+}
+
+.inner-ul-wrapper {
+    display: block;
+    float: right;
 }
 
 .list-4 {
@@ -204,17 +209,18 @@ nav {
     font-size: 0.81rem;
     letter-spacing: 0.03rem;
     font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
 main {
     width: 100%;
-    height: fit-content; /*Added*/
+    height: fit-content;
     height: -moz-max-content;
 }
 
 .section-1 {
     width: 100%;
-    height: calc(100vh * (3/4));/*changed*/
+    height: calc(100vh * (3/4));
     box-sizing: border-box;
     margin-top: 31px;
     padding: 0 8px;
@@ -281,10 +287,10 @@ main {
     bottom: 0;
     width: 100%;
     box-sizing: border-box;
-    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0) 36%, rgba(0,0,0,1) 79%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0) 36%,rgba(0,0,0,1) 79%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0) 36%,rgba(0,0,0,1) 79%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0) 36%, rgba(0,0,0,1) 79%);
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0) 36%,rgba(0,0,0,1) 79%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0) 36%,rgba(0,0,0,1) 79%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000',GradientType=0 );
     color: rgba(130, 130, 130, 1);
     font-family: 'Roboto Mono', monospace;
     font-size: 0.84rem;
@@ -367,10 +373,10 @@ main {
     color: rgba(130, 130, 130, 1);
     font-family: 'Roboto Mono', monospace;
     font-size: 0.84rem;
-    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0) 36%, rgba(0,0,0,1) 79%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0) 36%,rgba(0,0,0,1) 79%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0) 36%,rgba(0,0,0,1) 79%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0) 36%, rgba(0,0,0,1) 79%);
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0) 36%,rgba(0,0,0,1) 79%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0) 36%,rgba(0,0,0,1) 79%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000',GradientType=0 );
 }
 
 .picture-2 {
@@ -857,7 +863,7 @@ main {
     flex-direction: column;
 }
 
-#first-li {
+.first-li {
     box-sizing: border-box;
     width: 100%;
     height: calc(100vh * (6/17));
@@ -867,7 +873,8 @@ main {
     display: flex;
 }
 
-.section-5-1-ul li {
+.section-5-1-ul .other-li,
+.section-5-1-ul .others-li {
     box-sizing: border-box;
     height: auto;
     margin: 5px 0;
@@ -1057,6 +1064,11 @@ main {
     color: rgb(255, 68, 34);
 }
 
+.sa-h4 a{
+    font-size: 12px;
+    font-weight: 600;
+}
+
 .sa-h4 a:link,
 .sa-h4 a:visited,
 .sa-h4 a:active {
@@ -1134,6 +1146,7 @@ main {
 
 .section-6 {
     height: 17%;
+    margin-top: 30px;
 }
 
 .w6 {
@@ -1216,13 +1229,16 @@ main {
     padding: 0;
 }
 
+.w6 a {
+    font-size: 14px;
+}
+
 .w6 h4 a:link,
 .w6 h4 a:visited,
 .w6 h4 a:active {
     display: inline-block;
     text-decoration: none;
     color: #000;
-    font-size: 1rem;
     line-height: 1.2;
 }
 
@@ -1235,18 +1251,19 @@ main {
 footer {
     display: block;
     width: 100%;
-    height: calc(100vh * (6.7/20));
+    height: fit-content;
 }
 
 .footer-icons {
     width: 100%;
-    height: 30%;
-    min-height: 80px;
+    height: fit-content;
     padding: 2.5em 0;
     background-color: #131313;
     display: flex;
     flex-direction: column;
     position: relative;
+    border: 0;
+    margin-bottom: -1px;
 }
 
 .footer-links-social {
@@ -1353,10 +1370,13 @@ footer {
 .footer-legal {
     width: 100%;
     background-color: #000;
-    height: 40%;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 12px;
+    padding: 5.5% 0;
+    border: 0;
 }
 
 .footer-legal a:link,
@@ -1376,11 +1396,16 @@ footer {
     height: 9px;
 }
 
+ .section-2-h2,
+ .section-5-header {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
 @media screen and (max-width:768px) {
 
     .yellow-bar {
-
-        font-size: 0.7rem;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
@@ -1400,8 +1425,12 @@ footer {
 
     .section-1{
         flex-flow: row wrap;
-        margin: 0;
+        margin: 0 0 90px 0;
         height: calc(100vh * (5/6));
+    }
+
+    .section-5 {
+        margin-bottom: 30px;
     }
 
     .article-1-1 {
@@ -1446,6 +1475,7 @@ footer {
     .section-2 {
         padding-left: 2%;
         margin-top: 8%;
+        margin-bottom: 8%;
     }
 
     .s2-lis {
@@ -1484,8 +1514,12 @@ footer {
     .section-4 header{
         display: flex;
         flex-direction: column;
-        line-height: 3;
+        line-height: 1.4;
         margin-left: 0;
+    }
+
+    .section-4 header .section-2-h2 {
+        margin-bottom: 8px;
     }
 
     .wrapper-1 {
@@ -1502,7 +1536,9 @@ footer {
     }
 
     .wrapper-1 .anchor-4-1 {
-        margin-bottom: 3%;
+        margin: 4% 0;
+        font-weight: 400;
+        font-size: 14px;
     }
 
     .wrapper-1 span {
@@ -1516,11 +1552,15 @@ footer {
     .wrapper-2 .div-4-1 {
         width: 100%;
         max-width: 100%;
-        margin: 0;
+        margin: 0 0 20px 0;
     }
 
     .div-4-1 {
         min-height: 250px;
+    }
+
+    .last-one {
+        display: none;
     }
 
     .inner-section {
@@ -1531,12 +1571,19 @@ footer {
 
     .article-5-1 {
         width: 100%;
-        height: 100%;
+        height: 0;
+        padding-top: 75%;
+        margin-bottom: 0;
     }
 
     .section-5 {
         height: auto;
         padding: 0 2%;
+    }
+
+    .section-5-header{
+        margin-top: 3%;
+        margin-bottom: 1%;
     }
 
     .background {
@@ -1550,13 +1597,12 @@ footer {
     .w6 h4,
     .w6 ul {
         float: left;
-        width: 80%;
+        width: 75%;
     }
 
     .w6 h4 a:link,
     .w6 h4 a:visited,
     .w6 h4 a:active {
-        font-size: 1rem;
         font-weight: 700;
     }
 
@@ -1564,8 +1610,8 @@ footer {
         margin-bottom: 20px;
     }
 
-    #first-li {
-        height: calc(100vh * (2/3));
+    .first-li {
+        height: auto;
     }
 
     .article-1-1 h2,
@@ -1598,11 +1644,6 @@ footer {
 }
 
 @media screen and (max-width:828px) {
-
-    /* .mobile {
-         display: none;
-         margin: 0;
-     }*/
 
      .nav-div {
          display: none;
@@ -1640,10 +1681,6 @@ footer {
      .logo a {
          width: 100%;
          height: 100%;
-     }
-
-     .black-bar {
-         width: calc(100%-106px);
      }
 
      .inner-section {
@@ -1691,9 +1728,8 @@ footer {
      }
  }
 
- .section-2-h2,
- .section-5-header {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 1.4rem;
-    font-weight: 900;
+@media screen and (max-width: 480px) {
+    .yellow-bar {
+        font-size: 0.65rem;
+    }
 }
