@@ -1257,7 +1257,7 @@ footer {
 .footer-icons {
     width: 100%;
     height: fit-content;
-    padding: 2em 0;
+    padding: 2.5em 0 1.5em 0;
     background-color: #131313;
     display: flex;
     flex-direction: column;
@@ -1339,7 +1339,7 @@ footer {
 
 .fl-lis {
     margin: 7px;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 24px;
     text-transform: uppercase;
     float: left;
@@ -1374,7 +1374,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 12px;
+    font-size: 14px;
     padding: 2.75% 0;
     border: 0;
 }
